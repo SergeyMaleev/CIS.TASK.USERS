@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://localhost:50001',
-  allowedRoutes: ['localhost:50001'],
-  disallowedRoutes: ['localhost:50001']
+  apiUrl: 'https://localhost:5001',
+  allowedRoutes: ['localhost:5001'],
+  disallowedRoutes: ['localhost:5001']
 };
 
 /*
