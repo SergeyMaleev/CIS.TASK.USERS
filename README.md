@@ -1,24 +1,27 @@
-Запустить миграции
+Перейти в папку Api сервера
+```
+cd Backend\Api
+```
+Запустить миграции, создать базу данных MS SQL. Задать свой путь и доступ в appsettings.json
 ```
 dotnet ef database update
 ```
-Запуск серверв
+Запуск API сервера
 ```
 dotnet run
 ```
-
-Перейти в папку фронта
+Api сервер
 ```
-cd ng-test
+https://localhost:5001
+```
+
+Запуск клиента
+```
+cd Frontend\cis-userTest-client
 npm i
 ng serve
 ```
-
-фронт доступен на 
+клиент 
 ```
 localhost:4200
-```
-бэк на 
-```
-https://localhost:5001
 ```
