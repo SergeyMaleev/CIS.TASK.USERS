@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import '~material-design-icons/iconfont/material-icons.css';
+
+body {
+  background: #E5E5E5;
+  font-family: Comfortaa;
+}
+
+@mixin button ($color: green) {
+  height: 24px;
+  min-height: 24px;
+  padding: 3px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+
+  & i {
+    font-size: 18;
+    color: $color;
+  }
+
+  & :hover {
+    cursor: pointer;
+  }
+}

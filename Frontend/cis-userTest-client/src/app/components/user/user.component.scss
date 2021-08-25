@@ -1,0 +1,54 @@
+.user__main {
+  background: #FFFFFF;
+  margin: 50px;
+  position: relative;
+  text-align: center;
+
+  & h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+}
+
+.user__button__save {
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  background: #39fd6a;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: #2fca55;
+  }
+
+  & p {
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+}
+
+.example-section {
+  text-align: center;
+}
+
+.user__form__item {
+  margin-bottom: 10px;
+  align-content: center;
+
+  & input {
+    margin-left: 5px;
+  }
+}
+
+.exit__button{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+}

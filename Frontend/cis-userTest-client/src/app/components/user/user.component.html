@@ -1,0 +1,45 @@
+<div class="user__main">
+  <h3 *ngIf="urlPath !='add'">Пользователь №{{ urlPath }}</h3>
+  <h3 *ngIf="urlPath =='add'">Новый пользователь</h3>
+
+  <div class="user__form__item">
+    <label>Логин:</label>
+    <input *ngIf="urlPath !='add'" [ngModel]="currentUser.login" readonly>
+    <input *ngIf="urlPath =='add'" [(ngModel)]="currentUser.login">
+  </div>
+
+  <div class="user__form__item">
+    <label>Имя:</label>
+    <input matInput [(ngModel)]="currentUser.name">
+  </div>
+
+  <div class="user__form__item">
+    <label>Email:</label>
+    <input matInput [(ngModel)]="currentUser.email">
+  </div>
+
+  <div class="user__form__item">
+
+    <h4>Роли пользователя:</h4>
+    <div *ngFor="let role of roles" class="user__form__item">
+      <label>{{ role.name }}
+        <input type="checkbox" [checked]="isCheckedRole(role)" (change)="roleChange(currentUser ,role)">
+      </label>
+    </div>
+
+  </div>
+
+  <div class="user__form__item">
+    <button class="user__button__save" (click)="Save()">
+      <p>Сохранить</p>
+    </button>
+  </div>
+
+  <div class="exit__button">
+    <i class="material-icons" (click)="Exit()">
+      clear
+    </i>
+  </div>
+
+</div>
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api.csproj", "{FEE4FBFA-B0E3-4FD4-AD5B-C94ADE8240F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Common", "..\Auth.Common\Auth.Common.csproj", "{4DB032BA-B746-44FC-9C04-FC4DF6734FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE4FBFA-B0E3-4FD4-AD5B-C94ADE8240F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE4FBFA-B0E3-4FD4-AD5B-C94ADE8240F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE4FBFA-B0E3-4FD4-AD5B-C94ADE8240F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE4FBFA-B0E3-4FD4-AD5B-C94ADE8240F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB032BA-B746-44FC-9C04-FC4DF6734FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB032BA-B746-44FC-9C04-FC4DF6734FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB032BA-B746-44FC-9C04-FC4DF6734FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB032BA-B746-44FC-9C04-FC4DF6734FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0962233A-699F-458C-835D-5ACFBA6C8AFD}
+	EndGlobalSection
+EndGlobal

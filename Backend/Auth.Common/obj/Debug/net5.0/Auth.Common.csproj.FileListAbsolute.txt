@@ -1,0 +1,12 @@
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\bin\Debug\net5.0\Auth.Common.deps.json
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\bin\Debug\net5.0\Auth.Common.dll
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\bin\Debug\net5.0\ref\Auth.Common.dll
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\bin\Debug\net5.0\Auth.Common.pdb
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.csproj.AssemblyReference.cache
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.AssemblyInfoInputs.cache
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.AssemblyInfo.cs
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.csproj.CoreCompileInputs.cache
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.dll
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\ref\Auth.Common.dll
+C:\Програмирование\CIS\UserTest-Main\Backend\Auth.Common\obj\Debug\net5.0\Auth.Common.pdb

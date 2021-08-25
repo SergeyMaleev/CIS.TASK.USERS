@@ -1,0 +1,24 @@
+<div class="login__main">
+  <div class="login__main_info">
+    <h2>Добро пожаловать!</h2>
+    <p>Пожалуйста, введите email и пароль <br>
+      Для демонстрационных целей вход в административную часть: <br>
+      email: admin@admin.ru пароль: admin
+    </p>
+  </div>
+
+  <div class="login__form">
+    <form>
+      <div>
+        <input type="email" placeholder="email" #email>
+      </div>
+    <div>
+        <input type="password" placeholder="password" #password>
+    </div>
+
+    <button class="form__logout__button" type="button" (click)="login(email.value, password.value)">
+      <p>войти</p>
+    </button>
+  </form>
+  </div>
+</div>

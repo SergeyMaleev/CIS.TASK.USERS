@@ -1,0 +1,73 @@
+@import "../../../styles.scss";
+
+.header {
+  height: 60px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo{
+  margin-left: 80px;
+  cursor: pointer;
+  & h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.4444px;
+    line-height: 32px;
+  }
+}
+
+.header__logout__button {
+  width: 130px;
+  height: 40px;
+  background: #18A0FB;
+  border-radius: 6px;
+  border: none;
+  margin-right: 80px;
+  cursor: pointer;
+
+  &:hover {
+    background: #0672b9;
+  }
+
+  & p {
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+}
+
+.header__add__button {
+  width: 130px;
+  height: 40px;
+  background: #39fd6a;
+  border-radius: 6px;
+  border: none;
+  margin-right: 30px;
+  cursor: pointer;
+
+  &:hover {
+    background: #2fca55;
+  }
+
+  & p {
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+}
+
+.right__menu {
+
+  display: flex;
+  align-items: center;
+}
+
+.button__add {
+@include button();
+margin-right: 20px;
+}
+
+

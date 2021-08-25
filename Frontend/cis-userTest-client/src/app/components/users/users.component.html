@@ -1,0 +1,49 @@
+<div class="user__main">
+  <h3>Список пользователей</h3>
+  <table class="user__list">
+    <thead>
+        <tr>
+            <th class="user__list__id">
+              id
+            </th>
+            <th class="user__list__login">
+              Логин
+            </th>
+            <th class="user__list__name">
+              Имя
+            </th>
+            <th class="user__list__email">
+              Email
+            </th>
+            <th class="user__list__role">
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>
+              {{user.id}}
+            </td>
+            <td>
+              {{user.login}}
+            </td>
+            <td>
+              {{user.name}}
+            </td>
+            <td>
+              {{user.email}}
+            </td>
+            <td>
+              <div class="user__list__change">
+              <div class="user__list__button__edit" (click)="getUser(user.id.toString())">
+                <i class="material-icons">edit</i>
+              </div>
+              <div class="user__list__button__delete" (click)="deleteUser(user.id.toString())">
+                <i class="material-icons">delete</i></div>
+            </div>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+</div>

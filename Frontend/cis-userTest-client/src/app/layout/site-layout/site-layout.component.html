@@ -1,0 +1,19 @@
+<header class="header">
+  <div class="header__logo" (click)="GoHome()">
+    <h1>CIS TEST-USER</h1>
+  </div>
+  <div *ngIf='IsLoggetIn' class="right__menu">
+    <div class="button__add">
+      <i class="material-icons" (click)="addUser()">person_add</i>
+    </div>
+    <div class="header__logout">
+      <button class="header__logout__button" (click)="Logout()">
+        <p>Выйти</p>
+      </button>
+    </div>
+  </div>
+
+</header>
+<router-outlet></router-outlet>
+
+
