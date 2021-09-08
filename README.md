@@ -2,7 +2,7 @@
 ```
 cd Backend\Api
 ```
-Запустить миграции, создать базу данных MS SQL. Задать свой путь и доступ в appsettings.json
+Запустить миграции, создать базу данных MS SQL. При необходимости возможно задать свой путь и доступ в appsettings.json
 ```
 dotnet ef database update
 ```
