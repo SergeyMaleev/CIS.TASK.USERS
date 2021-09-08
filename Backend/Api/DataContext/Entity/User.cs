@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Api.DataContext.Entity
 {
-    public class User
+    public class User : EntityModel
     {
-        [Key]      
-        public int Id { get; set; } 
-        
+             
         /// <summary>
         /// Логин
         /// </summary>

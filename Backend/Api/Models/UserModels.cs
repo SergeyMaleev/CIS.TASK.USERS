@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Api.Models
 {
-    public class UserModels
+    public class UserModels : IBaseModel
     {
         public int Id { get; set; }
         public string Login { get; set; }

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Api.DataContext.Entity
 {
-    public class Role
+    public class Role : EntityModel
     {
-        [Key]
-        public int Id { get; set; }
-        
+            
         /// <summary>
         /// Наименование роли
         /// </summary>

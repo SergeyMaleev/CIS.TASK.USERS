@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace Api.Models
 {
-    public class RoleModels : IBaseModel
+    public interface IBaseModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        int Id { get; set; }
     }
 }
