@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Api.DataContext.Entity
 {
-    public abstract class EntityModel : IBaseModel
+    public abstract class BaseEntity : IBaseModel
     {
         [Key]
         public int Id { get; set; }

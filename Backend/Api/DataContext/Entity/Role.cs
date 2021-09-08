@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Api.DataContext.Entity
 {
-    public class Role : EntityModel
+    public class Role : BaseEntity
     {
             
         /// <summary>

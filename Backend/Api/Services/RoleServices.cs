@@ -19,7 +19,7 @@ namespace Api.Services
         {
             _dbContext = dbContext;
             _mapper = mapper;
-    }
+        }
 
         public async Task<IEnumerable<RoleModels>> GetAvailableRoles()
         {
